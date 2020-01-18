@@ -1,0 +1,8 @@
+<div class="button-div">
+  <button (click)="selection('cpu')">cpu</button>
+  <button (click)="selection('gpu')">gpu</button>
+  <button (click)="selection('ram')">ram</button>
+</div>
+<app-cpu *ngIf="resourceSelected === 'cpu'"> </app-cpu>
+<app-gpu *ngIf="resourceSelected === 'gpu'"> </app-gpu>
+<app-ram *ngIf="resourceSelected === 'ram'"></app-ram>
