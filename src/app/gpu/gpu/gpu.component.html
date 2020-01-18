@@ -1,1 +1,6 @@
-<p>gpu works!</p>
+<div [chart]="chart"></div>
+<b *ngIf="!gpuPresence">
+  No GPU available
+</b>
+<button (click)="pause()">pause</button>
+<button (click)="resume()">resume</button>
