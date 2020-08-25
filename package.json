@@ -22,7 +22,7 @@
     "@angular/router": "~8.2.3",
     "angular-highcharts": "^8.0.3",
     "express": "^4.17.1",
-    "highcharts": "^8.0.0",
+    "highcharts": "^8.1.1",
     "path": "^0.12.7",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
